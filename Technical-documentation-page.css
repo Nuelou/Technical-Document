@@ -1,0 +1,39 @@
+html {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #d9dbde;
+    font-family: sans-serif;
+}
+/* Site Navigation*/
+nav {
+    border-top: 3px solid #1f3d70;
+    border-bottom: 3px solid #1f3d70;
+    width: 22%;
+    float: left;
+    position: fixed;
+}
+a:hover {
+    background-color: #c2d2ed;
+}
+a {
+    text-decoration: none;
+}
+.nav-link a{
+    display: block;
+    text-decoration: none;
+    color: #84adf5;
+    border: 1px solid #84adf5;
+    cursor: pointer;
+}
+section {
+    width: 78%;
+    display: block;
+    float: right;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+code {
+    font-size: x-large;
+    font-weight: bolder;
+}
